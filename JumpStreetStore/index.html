@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JumpStreetStore</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #0f0f0f;
+      color: #ffffff;
+    }
+
+    header {
+      background-color: #000000;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #ce00e175;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+      letter-spacing: 2px;
+    }
+
+    header p {
+      margin-top: 8px;
+      color: #cccccc;
+      font-size: 1rem;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .info {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap:  20px;
+    }
+
+    .card {
+      background-color: #1a1a1a;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.6);
+    }
+
+    .card h3 {
+      color: #cf01f870;
+      margin-top: 0;
+    }
+
+    footer {
+      background-color: #000000;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9rem;
+      color: #aaaaaa;
+      border-top: 2px solid #ff02ff63;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #ea02ff85;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      background-color: #ff00f283;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>JUMPSTREETSTORE</h1>
+    <p>Flow urbano • Zapatillas G5 • Solo Santiago</p>
+  </header>
+
+  <section>
+    <h2 style="text-align:center; margin-bottom:30px;">Catálogo</h2>
+    <div class="info">
+
+      <div class="card">
+        <img src="img/air-force-1-white.jpg" alt="Air Force 1 White" style="width:100%; border-radius:10px;">
+        <h3>Air Force 1 White</h3>
+        <p>Precio: <strong>$60.000</strong></p>
+      </div>
+
+      <div class="card">
+        <img src="img/nike-shox-black-2.jpg" alt="Nike Shox Black " style="width:100%; border-radius:10px;">
+        <h3>Nike Shox Black</h3>
+        <p>Precio: <strong>$75.000</strong></p>
+      </div>
+
+            <div class="card">
+        <img src="img/jordan4-black.jpg" alt="Jordan 4 Black" style="width:100%; border-radius:10px;">
+        <h3>Jordan 4 Black</h3>
+        <p>Precio: <strong>$80.000</strong></p>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    © 2025 JumpStreetStore • Santiago, Chile
+  </footer>
+
+</body>
+</html>
